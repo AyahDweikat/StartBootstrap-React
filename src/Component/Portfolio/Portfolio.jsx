@@ -5,8 +5,8 @@ import img3 from './img/circus.png';
 import img4 from './img/game.png';
 import img5 from './img/safe.png';
 import img6 from './img/submarine.png';
-
 import './Portfolio.css';
+
 export default class Portfolio extends Component {
   render() {
     return (
