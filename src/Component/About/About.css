@@ -70,3 +70,58 @@ button.download:hover{
     -o-border-radius: 10px;
     color:#000;
 }
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media screen and (max-width:400px) {
+    .about h1{
+        font-size: 36px !important;
+    }
+    .about p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .about .discussion{
+        width:100%;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 400px) and (max-width:576px) {
+    .about h1{
+        font-size: 36px !important;
+    }
+    .about p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .about .discussion{
+        width:100%;
+        margin: auto;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) and (max-width:767px) {
+    .about h1{
+        font-size: 36px !important;
+    }
+    .about p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .about .discussion{
+        width:100%;
+        margin: auto;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) and (max-width:991px) {
+    .about p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .about .discussion{
+        width:100%;
+        margin: auto;
+    }
+}
+

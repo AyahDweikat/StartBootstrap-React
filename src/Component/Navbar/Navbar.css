@@ -37,3 +37,15 @@ body{
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
 }
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media screen and (max-width:400px) {
+    .navbar-brand{
+        font-size: 18px !important;
+    }
+}
+@media screen and (min-width: 400px) and (max-width:576px) {
+    .navbar-brand{
+        font-size: 20px !important;
+    }
+}

@@ -8,7 +8,7 @@ export default class Footer extends Component {
             <div className="container m-auto row">
                 <div className="col-md-4 location">
                     <h2>LOCATION</h2>
-                    <p className='px-md-5'>2215 John Daniel Drive Clark, MO 65243</p>
+                    <p className='px-lg-5'>2215 John Daniel Drive Clark, MO 65243</p>
                 </div>
                 <div className="col-md-4 social">
                     <h2>AROUND THE WEB</h2>

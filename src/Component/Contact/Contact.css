@@ -67,3 +67,73 @@
 .submit:hover{
     background-color: #16a085;
 }
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media screen and (max-width:400px) {
+    .contact h1{
+        font-size: 36px !important;
+        margin-top: 70px;
+    }
+    .crud input{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    .crud input.message{
+        padding-bottom: 50px;
+    }
+    .submit{
+        padding: 12px 20px;
+        margin: auto;
+        font-size: 24px;
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 70px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width:576px) {
+    .contact h1{
+        font-size: 36px !important;
+        margin-top: 70px;
+    }
+    .crud input{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    .crud input.message{
+        padding-bottom: 50px;
+    }
+    .submit{
+        padding: 12px 20px;
+        margin: auto;
+        font-size: 24px;
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 70px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) and (max-width:767px) {
+    .contact h1{
+        font-size: 36px !important;
+        margin-top: 70px;
+    }
+    .crud input{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    .crud input.message{
+        padding-bottom: 30px;
+    }
+}
+

@@ -64,3 +64,68 @@ footer li:hover{
     font-weight: 400;
     font-family: 'Lato', sans-serif;
 }
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media screen and (max-width:400px) {
+    .part-one{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    footer h2{
+        font-size: 24px;
+    }
+    footer p{
+        font-size: 16px;
+    }
+    .location, .social, .freelancer{
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width:576px) {
+    .part-one{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    footer h2{
+        font-size: 24px;
+    }
+    footer p{
+        font-size: 18px;
+    }
+    .location, .social, .freelancer{
+        margin-bottom: 30px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) and (max-width:767px) {
+    .part-one{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    footer h2{
+        font-size: 24px;
+    }
+    footer p{
+        font-size: 18px;
+    }
+    .location, .social, .freelancer{
+        margin-bottom: 30px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) and (max-width:991px) {
+    footer h2{
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+    footer p{
+        font-size: 18px;
+    }
+    .location, .social, .freelancer{
+        margin-bottom: 30px;
+    }
+}
+
