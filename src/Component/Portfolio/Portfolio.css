@@ -84,3 +84,25 @@
     background-color: transparent;
     border-color: #fff;
 }
+/* Extra small devices (portrait phones, less than 576px) */
+@media screen and (max-width:400px) {
+    .portfolio h1{
+        font-size: 20px !important;
+        margin-top: 70px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width:576px) {
+    .portfolio h1{
+        font-size: 28px !important;
+        margin-top: 70px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) and (max-width:767px) {
+    .portfolio h1{
+        font-size: 36px !important;
+        margin-top: 70px;
+    }
+}
