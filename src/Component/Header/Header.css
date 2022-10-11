@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 header{
+    margin-top: 100px;
     background-color: rgb(26, 188, 156);
 }
 header h1{

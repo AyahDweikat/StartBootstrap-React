@@ -13,6 +13,11 @@ body{
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
+    position: fixed !important;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index:5;
 }
 .navbar-nav .nav-link:hover{
     color:rgb(26, 188, 156) !important;
